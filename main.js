@@ -35,7 +35,6 @@ tabs.addEventListener('click', e => {
 
 childTabs.addEventListener('click', (e) => {
     const currChildTab = e.target.dataset.childBtn;
-    console.log(e.target.dataset);
 
     changeChildClass(e.target);
     for (let i = 0; i < childContent.length; i++) {
